@@ -2,6 +2,14 @@ const Twit = require('twit');
 
 const {BOT_CONSUMER_KEY, BOT_CONSUMER_SECRET, BOT_ACCESS_TOKEN, BOT_ACCESS_TOKEN_SECRET} = process.env;
 
+console.log(`bot consumer key: ${BOT_CONSUMER_KEY}`)
+console.log(`bot consumer secret: ${BOT_CONSUMER_SECRET}`)
+console.log(`bot access token: ${BOT_ACCESS_TOKEN}`)
+console.log(`bot access token secret: ${BOT_ACCESS_TOKEN_SECRET}`)
+
+
+
+
 
 const t = new Twit({
     consumer_key: BOT_CONSUMER_KEY,
