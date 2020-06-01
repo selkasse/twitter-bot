@@ -28,7 +28,7 @@ const TWEET_ID = '1260004405258182657'
 const RT_URL = `${BASE_URL}/${TWITTER_USER}/status/${TWEET_ID}`;
 
 //
-//  * tweet 'hello world!'
+//  * quote a tweet from our actual Twitter account
 //
 t.post('statuses/update', { status: `hello bot! ${RT_URL}` }, function (err, data, response) {
     console.log(data)
